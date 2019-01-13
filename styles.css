@@ -81,7 +81,7 @@ img {
 .sprites li {display: inline-block;}
 
 .sprites li a{
-  background-image: url("sprites.png");
+  background-image: url("images/sprites.png");
   margin-right: 10px;
   display: inline-block;
   width: 60px;
