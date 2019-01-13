@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 94%;
+  max-width: 1100px;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a:link {
+  color: white; 
+}
+
+nav a:visited {
+  color: white; 
+}
+
+/* nav li:hover { */
+  /* background-color: #b30000;  */
+/* } */
+
+a:link {
+  color: #cc0000
+}
+
+a:visited {
+  color:  #b30000;
+}
+
+.jumbotron-fluid {
+  color: white;
+  background-color: black;
+}
+
+nav {
+  background-color:  #cc0000;
+}  
+  
+nav ul {
+  color: white;
+}
+
+nav ul li {
+  border-right: 1px solid white;
+}
+li:last-child {
+  border-right: none;
+}
+
+img {
+	width: 100%;
+  height: 300px;
+}
+
+#img-container {
+  position: relative;
+}
+
+#img-container p {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  color:white;
+  font-size: 1.5em;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.contact {
+  border: 1px solid black;
+}
+
+.sprites li {display: inline-block;}
+
+.sprites li a{
+  background-image: url("sprites.png");
+  margin-right: 10px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+#facebook {
+  background-position: 0 0
+}
+
+#instagram {
+  background-position: -60px 0
+}
+
+#twitter {
+  background-position: -120px 0
+}
